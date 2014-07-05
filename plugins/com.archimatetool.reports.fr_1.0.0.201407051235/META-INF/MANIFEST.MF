@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.archimatetool.reports.fr
+Bundle-Name: Language Pack
+Bundle-Version: 1.0.0.201407051235
+Bundle-ClassPath: com.archimatetool.reports.fr.jar
+Bundle-ManifestVersion: 2
+Fragment-Host: com.archimatetool.reports
+
+

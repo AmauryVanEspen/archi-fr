@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.archimatetool.canvas.fr
+Bundle-Name: Language Pack
+Bundle-Version: 1.0.0.201407051235
+Bundle-ClassPath: com.archimatetool.canvas.fr.jar
+Bundle-ManifestVersion: 2
+Fragment-Host: com.archimatetool.canvas
+
+

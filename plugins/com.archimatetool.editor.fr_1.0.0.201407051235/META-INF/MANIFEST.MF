@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.archimatetool.editor.fr
+Bundle-Name: Language Pack
+Bundle-Version: 1.0.0.201407051235
+Bundle-ClassPath: com.archimatetool.editor.fr.jar
+Bundle-ManifestVersion: 2
+Fragment-Host: com.archimatetool.editor
+
+
