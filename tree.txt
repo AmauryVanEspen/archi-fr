@@ -1,0 +1,1785 @@
+Structure du dossier pour le volume OS
+Le num‚ro de s‚rie du volume est E05D-584A
+C:.
+|   README.md
+|   tree.txt
+|   tree.xls
+|   us.stackdump
+|   
++---com.archimatetool.canvas.fr
+|   |   .classpath
+|   |   .gitignore
+|   |   .project
+|   |   build.properties
+|   |   plugin_fr.properties
+|   |   
+|   +---bin
+|   |   \---com
+|   |       \---archimatetool
+|   |           \---canvas
+|   |               |   messages_fr.properties
+|   |               |   
+|   |               +---editparts
+|   |               |       messages_fr.properties
+|   |               |       
+|   |               +---figures
+|   |               |       messages_fr.properties
+|   |               |       
+|   |               +---policies
+|   |               |       messages_fr.properties
+|   |               |       
+|   |               +---preferences
+|   |               |       messages_fr.properties
+|   |               |       
+|   |               +---propertysections
+|   |               |       messages_fr.properties
+|   |               |       
+|   |               \---templates
+|   |                   +---dialog
+|   |                   |       messages_fr.properties
+|   |                   |       
+|   |                   +---model
+|   |                   |       messages_fr.properties
+|   |                   |       
+|   |                   \---wizard
+|   |                           messages_fr.properties
+|   |                           
+|   +---META-INF
+|   |       MANIFEST.MF
+|   |       
+|   +---nl
+|   |   \---fr
+|   |       +---help
+|   |       |   \---hints
+|   |       |           canvas_block.html
+|   |       |           canvas_connection.html
+|   |       |           canvas_diagram.html
+|   |       |           canvas_image.html
+|   |       |           canvas_sticky.html
+|   |       |           style.css
+|   |       |           
+|   |       \---templates
+|   |               bmc.archicanvas
+|   |               cjc.archicanvas
+|   |               swot.archicanvas
+|   |               
+|   \---src
+|       \---com
+|           \---archimatetool
+|               \---canvas
+|                   |   messages_fr.properties
+|                   |   
+|                   +---editparts
+|                   |       messages_fr.properties
+|                   |       
+|                   +---figures
+|                   |       messages_fr.properties
+|                   |       
+|                   +---policies
+|                   |       messages_fr.properties
+|                   |       
+|                   +---preferences
+|                   |       messages_fr.properties
+|                   |       
+|                   +---propertysections
+|                   |       messages_fr.properties
+|                   |       
+|                   \---templates
+|                       +---dialog
+|                       |       messages_fr.properties
+|                       |       
+|                       +---model
+|                       |       messages_fr.properties
+|                       |       
+|                       \---wizard
+|                               messages_fr.properties
+|                               
++---com.archimatetool.csv.fr
+|   |   .classpath
+|   |   .gitignore
+|   |   .project
+|   |   build.properties
+|   |   plugin_fr.properties
+|   |   
+|   +---bin
+|   |   \---com
+|   |       \---archimatetool
+|   |           \---csv
+|   |               +---export
+|   |               |       messages_fr.properties
+|   |               |       
+|   |               \---importer
+|   |                       messages_fr.properties
+|   |                       
+|   +---META-INF
+|   |       MANIFEST.MF
+|   |       
+|   +---nl
+|   \---src
+|       \---com
+|           \---archimatetool
+|               \---csv
+|                   +---export
+|                   |       messages_fr.properties
+|                   |       
+|                   \---importer
+|                           messages_fr.properties
+|                           
++---com.archimatetool.editor.fr
+|   |   .classpath
+|   |   .gitignore
+|   |   .project
+|   |   build.properties
+|   |   plugin_fr.properties
+|   |   
+|   +---bin
+|   |   \---com
+|   |       \---archimatetool
+|   |           \---editor
+|   |               +---actions
+|   |               |       messages_fr.properties
+|   |               |       
+|   |               +---diagram
+|   |               |   |   messages_fr.properties
+|   |               |   |   
+|   |               |   +---actions
+|   |               |   |       messages_fr.properties
+|   |               |   |       
+|   |               |   +---commands
+|   |               |   |       messages_fr.properties
+|   |               |   |       
+|   |               |   +---dialog
+|   |               |   |       messages_fr.properties
+|   |               |   |       
+|   |               |   +---editparts
+|   |               |   |   +---connections
+|   |               |   |   |       messages_fr.properties
+|   |               |   |   |       
+|   |               |   |   \---diagram
+|   |               |   |           messages_fr.properties
+|   |               |   |           
+|   |               |   +---figures
+|   |               |   |   |   messages_fr.properties
+|   |               |   |   |   
+|   |               |   |   +---connections
+|   |               |   |   |       messages_fr.properties
+|   |               |   |   |       
+|   |               |   |   \---diagram
+|   |               |   |           messages_fr.properties
+|   |               |   |           
+|   |               |   +---policies
+|   |               |   |       messages_fr.properties
+|   |               |   |       
+|   |               |   +---sketch
+|   |               |   |   |   messages_fr.properties
+|   |               |   |   |   
+|   |               |   |   +---editparts
+|   |               |   |   |       messages_fr.properties
+|   |               |   |   |       
+|   |               |   |   +---figures
+|   |               |   |   |       messages_fr.properties
+|   |               |   |   |       
+|   |               |   |   \---policies
+|   |               |   |           messages_fr.properties
+|   |               |   |           
+|   |               |   +---tools
+|   |               |   |       messages_fr.properties
+|   |               |   |       
+|   |               |   \---wizard
+|   |               |           messages_fr.properties
+|   |               |           
+|   |               +---model
+|   |               |   +---commands
+|   |               |   |       messages_fr.properties
+|   |               |   |       
+|   |               |   +---impl
+|   |               |   |       messages_fr.properties
+|   |               |   |       
+|   |               |   \---viewpoints
+|   |               |           messages_fr.properties
+|   |               |           
+|   |               +---preferences
+|   |               |       messages_fr.properties
+|   |               |       
+|   |               +---propertysections
+|   |               |       messages_fr.properties
+|   |               |       
+|   |               +---ui
+|   |               |   |   messages_fr.properties
+|   |               |   |   
+|   |               |   +---components
+|   |               |   |       messages_fr.properties
+|   |               |   |       
+|   |               |   +---dialog
+|   |               |   |       messages_fr.properties
+|   |               |   |       
+|   |               |   \---factory
+|   |               |       +---application
+|   |               |       |       messages_fr.properties
+|   |               |       |       
+|   |               |       +---business
+|   |               |       |       messages_fr.properties
+|   |               |       |       
+|   |               |       +---connections
+|   |               |       |       messages_fr.properties
+|   |               |       |       
+|   |               |       +---diagram
+|   |               |       |       messages_fr.properties
+|   |               |       |       
+|   |               |       +---extensions
+|   |               |       |       messages_fr.properties
+|   |               |       |       
+|   |               |       +---junctions
+|   |               |       |       messages_fr.properties
+|   |               |       |       
+|   |               |       +---sketch
+|   |               |       |       messages_fr.properties
+|   |               |       |       
+|   |               |       \---technology
+|   |               |               messages_fr.properties
+|   |               |               
+|   |               +---utils
+|   |               |       messages_fr.properties
+|   |               |       
+|   |               \---views
+|   |                   +---navigator
+|   |                   |       messages_fr.properties
+|   |                   |       
+|   |                   +---properties
+|   |                   |       messages_fr.properties
+|   |                   |       
+|   |                   \---tree
+|   |                       |   messages_fr.properties
+|   |                       |   
+|   |                       +---actions
+|   |                       |       messages_fr.properties
+|   |                       |       
+|   |                       +---commands
+|   |                       |       messages_fr.properties
+|   |                       |       
+|   |                       \---search
+|   |                               messages_fr.properties
+|   |                               
+|   +---META-INF
+|   |       MANIFEST.MF
+|   |       
+|   +---nl
+|   \---src
+|       \---com
+|           \---archimatetool
+|               \---editor
+|                   +---actions
+|                   |       messages_fr.properties
+|                   |       
+|                   +---diagram
+|                   |   |   messages_fr.properties
+|                   |   |   
+|                   |   +---actions
+|                   |   |       messages_fr.properties
+|                   |   |       
+|                   |   +---commands
+|                   |   |       messages_fr.properties
+|                   |   |       
+|                   |   +---dialog
+|                   |   |       messages_fr.properties
+|                   |   |       
+|                   |   +---editparts
+|                   |   |   +---connections
+|                   |   |   |       messages_fr.properties
+|                   |   |   |       
+|                   |   |   \---diagram
+|                   |   |           messages_fr.properties
+|                   |   |           
+|                   |   +---figures
+|                   |   |   |   messages_fr.properties
+|                   |   |   |   
+|                   |   |   +---connections
+|                   |   |   |       messages_fr.properties
+|                   |   |   |       
+|                   |   |   \---diagram
+|                   |   |           messages_fr.properties
+|                   |   |           
+|                   |   +---policies
+|                   |   |       messages_fr.properties
+|                   |   |       
+|                   |   +---sketch
+|                   |   |   |   messages_fr.properties
+|                   |   |   |   
+|                   |   |   +---editparts
+|                   |   |   |       messages_fr.properties
+|                   |   |   |       
+|                   |   |   +---figures
+|                   |   |   |       messages_fr.properties
+|                   |   |   |       
+|                   |   |   \---policies
+|                   |   |           messages_fr.properties
+|                   |   |           
+|                   |   +---tools
+|                   |   |       messages_fr.properties
+|                   |   |       
+|                   |   \---wizard
+|                   |           messages_fr.properties
+|                   |           
+|                   +---model
+|                   |   +---commands
+|                   |   |       messages_fr.properties
+|                   |   |       
+|                   |   +---impl
+|                   |   |       messages_fr.properties
+|                   |   |       
+|                   |   \---viewpoints
+|                   |           messages_fr.properties
+|                   |           
+|                   +---preferences
+|                   |       messages_fr.properties
+|                   |       
+|                   +---propertysections
+|                   |       messages_fr.properties
+|                   |       
+|                   +---ui
+|                   |   |   messages_fr.properties
+|                   |   |   
+|                   |   +---components
+|                   |   |       messages_fr.properties
+|                   |   |       
+|                   |   +---dialog
+|                   |   |       messages_fr.properties
+|                   |   |       
+|                   |   \---factory
+|                   |       +---application
+|                   |       |       messages_fr.properties
+|                   |       |       
+|                   |       +---business
+|                   |       |       messages_fr.properties
+|                   |       |       
+|                   |       +---connections
+|                   |       |       messages_fr.properties
+|                   |       |       
+|                   |       +---diagram
+|                   |       |       messages_fr.properties
+|                   |       |       
+|                   |       +---extensions
+|                   |       |       messages_fr.properties
+|                   |       |       
+|                   |       +---junctions
+|                   |       |       messages_fr.properties
+|                   |       |       
+|                   |       +---sketch
+|                   |       |       messages_fr.properties
+|                   |       |       
+|                   |       \---technology
+|                   |               messages_fr.properties
+|                   |               
+|                   +---utils
+|                   |       messages_fr.properties
+|                   |       
+|                   \---views
+|                       +---navigator
+|                       |       messages_fr.properties
+|                       |       
+|                       +---properties
+|                       |       messages_fr.properties
+|                       |       
+|                       \---tree
+|                           |   messages_fr.properties
+|                           |   
+|                           +---actions
+|                           |       messages_fr.properties
+|                           |       
+|                           +---commands
+|                           |       messages_fr.properties
+|                           |       
+|                           \---search
+|                                   messages_fr.properties
+|                                   
++---com.archimatetool.export.svg.fr
+|   |   .classpath
+|   |   .gitignore
+|   |   .project
+|   |   build.properties
+|   |   
+|   +---bin
+|   |   \---com
+|   |       \---archimatetool
+|   |           \---export
+|   |               \---svg
+|   |                       messages_fr.properties
+|   |                       
+|   +---META-INF
+|   |       MANIFEST.MF
+|   |       
+|   +---nl
+|   \---src
+|       \---com
+|           \---archimatetool
+|               \---export
+|                   \---svg
+|                           messages_fr.properties
+|                           
++---com.archimatetool.help.fr
+|   |   .classpath
+|   |   .gitignore
+|   |   .project
+|   |   build.properties
+|   |   plugin_fr.properties
+|   |   
+|   +---bin
+|   |   \---com
+|   |       \---archimatetool
+|   |           \---help
+|   |               +---cheatsheets
+|   |               |       messages_fr.properties
+|   |               |       
+|   |               \---hints
+|   |                       messages_fr.properties
+|   |                       
+|   +---META-INF
+|   |       MANIFEST.MF
+|   |       
+|   +---nl
+|   |   \---fr
+|   |       +---cheatsheets
+|   |       |       create_map_view.xml
+|   |       |       new_model.xml
+|   |       |       
+|   |       +---help
+|   |       |   +---Images
+|   |       |   |       archimate_relations_dialog.png
+|   |       |   |       bendpoint1.png
+|   |       |   |       bendpoint2.png
+|   |       |   |       blank-workspace.png
+|   |       |   |       canvas_bmc.png
+|   |       |   |       canvas_bmc2.png
+|   |       |   |       canvas_bmc3.png
+|   |       |   |       canvas_example1.png
+|   |       |   |       canvas_example2.png
+|   |       |   |       canvas_example3.png
+|   |       |   |       canvas_example4.png
+|   |       |   |       canvas_example5.png
+|   |       |   |       canvas_example6.png
+|   |       |   |       canvas_example7.png
+|   |       |   |       canvas_example8.png
+|   |       |   |       canvas_new_blank.png
+|   |       |   |       canvas_new_from_template.png
+|   |       |   |       canvas_new_from_template_wizard1.png
+|   |       |   |       canvas_palette.png
+|   |       |   |       canvas_save_as_template1.png
+|   |       |   |       canvas_save_as_template2.png
+|   |       |   |       canvas_templates_manage.png
+|   |       |   |       circular_connection.png
+|   |       |   |       connection_reuse_dialog.png
+|   |       |   |       connection_tooltip.png
+|   |       |   |       conn_properties.png
+|   |       |   |       container1.png
+|   |       |   |       container2.png
+|   |       |   |       container3.png
+|   |       |   |       container4.png
+|   |       |   |       container5.png
+|   |       |   |       container6.png
+|   |       |   |       container7.png
+|   |       |   |       delete_warning.png
+|   |       |   |       derived_dialog.png
+|   |       |   |       derived_example.png
+|   |       |   |       groups.png
+|   |       |   |       hints.png
+|   |       |   |       image_chooser.png
+|   |       |   |       image_chooser_dialog.png
+|   |       |   |       jasper_pdf.png
+|   |       |   |       jasper_wizard1.png
+|   |       |   |       jasper_wizard2.png
+|   |       |   |       junction.png
+|   |       |   |       magic_conn1.png
+|   |       |   |       magic_conn2.png
+|   |       |   |       magic_conn3.png
+|   |       |   |       model-tree-add.png
+|   |       |   |       model-tree-filter.png
+|   |       |   |       model-tree-filter2.png
+|   |       |   |       model-tree-italic.png
+|   |       |   |       model-tree-searchbar.png
+|   |       |   |       model-tree-searchbar2.png
+|   |       |   |       model-tree-sync.png
+|   |       |   |       model-tree.png
+|   |       |   |       navigator1.png
+|   |       |   |       navigator2.png
+|   |       |   |       navigator3.png
+|   |       |   |       navigator4.png
+|   |       |   |       navigator5.png
+|   |       |   |       navigator6.png
+|   |       |   |       new-model.png
+|   |       |   |       new-sketch.png
+|   |       |   |       new-toolbar.png
+|   |       |   |       note.png
+|   |       |   |       orthogonal1.png
+|   |       |   |       orthogonal2.png
+|   |       |   |       outline.png
+|   |       |   |       palette.png
+|   |       |   |       palette_docked.png
+|   |       |   |       palette_elements.png
+|   |       |   |       palette_elements2.png
+|   |       |   |       palette_formatpainter.png
+|   |       |   |       palette_icons.png
+|   |       |   |       palette_junctions.png
+|   |       |   |       palette_magic.png
+|   |       |   |       palette_other.png
+|   |       |   |       palette_relations.png
+|   |       |   |       palette_selections.png
+|   |       |   |       palette_settings.png
+|   |       |   |       palette_tools.png
+|   |       |   |       prefs_canvas.png
+|   |       |   |       prefs_colours.png
+|   |       |   |       prefs_connections.png
+|   |       |   |       prefs_connections2.png
+|   |       |   |       prefs_diagram.png
+|   |       |   |       prefs_diagram2.png
+|   |       |   |       prefs_diagram3.png
+|   |       |   |       prefs_fonts.png
+|   |       |   |       prefs_general.png
+|   |       |   |       properties_canvas_block1.png
+|   |       |   |       properties_canvas_block2.png
+|   |       |   |       properties_canvas_block3.png
+|   |       |   |       properties_canvas_block4.png
+|   |       |   |       properties_canvas_connection1.png
+|   |       |   |       properties_canvas_connection2.png
+|   |       |   |       properties_canvas_image1.png
+|   |       |   |       properties_canvas_image2.png
+|   |       |   |       properties_canvas_sticky1.png
+|   |       |   |       properties_canvas_sticky2.png
+|   |       |   |       properties_canvas_sticky3.png
+|   |       |   |       properties_element1.png
+|   |       |   |       properties_element2.png
+|   |       |   |       properties_element3.png
+|   |       |   |       properties_element4.png
+|   |       |   |       properties_figure.png
+|   |       |   |       properties_folder.png
+|   |       |   |       properties_group1.png
+|   |       |   |       properties_group2.png
+|   |       |   |       properties_model.png
+|   |       |   |       properties_note1.png
+|   |       |   |       properties_note2.png
+|   |       |   |       properties_note_connection.png
+|   |       |   |       properties_note_connection_main.png
+|   |       |   |       properties_relation1.png
+|   |       |   |       properties_relation2.png
+|   |       |   |       properties_relation3.png
+|   |       |   |       properties_sketch_appearance.png
+|   |       |   |       properties_user1.png
+|   |       |   |       properties_user2.png
+|   |       |   |       properties_user_dialog1.png
+|   |       |   |       properties_user_dialog2.png
+|   |       |   |       properties_view1.png
+|   |       |   |       properties_view2.png
+|   |       |   |       properties_viewref.png
+|   |       |   |       rel-access.png
+|   |       |   |       rel-aggregation.png
+|   |       |   |       rel-assignment.png
+|   |       |   |       rel-association.png
+|   |       |   |       rel-composition.png
+|   |       |   |       rel-flow.png
+|   |       |   |       rel-realisation.png
+|   |       |   |       rel-specialisation.png
+|   |       |   |       rel-triggering.png
+|   |       |   |       rel-usedby.png
+|   |       |   |       report_html.png
+|   |       |   |       selection-primary.png
+|   |       |   |       sketch1.png
+|   |       |   |       template_manage.png
+|   |       |   |       template_new_wizard.png
+|   |       |   |       template_save_wizard1.png
+|   |       |   |       template_save_wizard2.png
+|   |       |   |       tip.png
+|   |       |   |       toolbar_palette.png
+|   |       |   |       viewpoint_hint.png
+|   |       |   |       viewpoint_infrastructure.png
+|   |       |   |       viewpoint_total.png
+|   |       |   |       viewpoint_tree.png
+|   |       |   |       view_conn_router_manhattan.png
+|   |       |   |       view_conn_router_manual.png
+|   |       |   |       view_conn_router_shortest.png
+|   |       |   |       view_default.png
+|   |       |   |       view_fullscreen.png
+|   |       |   |       view_new.png
+|   |       |   |       view_new_menu.png
+|   |       |   |       view_refs.png
+|   |       |   |       view_z_order.png
+|   |       |   |       visualiser.png
+|   |       |   |       visualiser_menu.png
+|   |       |   |       windows-toolbar.png
+|   |       |   |       
+|   |       |   +---Styles
+|   |       |   |       style.css
+|   |       |   |       
+|   |       |   \---Text
+|   |       |           archi_working.html
+|   |       |           canvas.html
+|   |       |           canvas_details.html
+|   |       |           canvas_getting_started.html
+|   |       |           canvas_new_from_template.html
+|   |       |           canvas_save_as_template.html
+|   |       |           canvas_templates_managing.html
+|   |       |           derived_rels.html
+|   |       |           exporting.html
+|   |       |           hints.html
+|   |       |           image_chooser.html
+|   |       |           install.html
+|   |       |           intro.html
+|   |       |           model_tree.html
+|   |       |           model_tree_add.html
+|   |       |           model_tree_folders.html
+|   |       |           model_tree_search.html
+|   |       |           model_tree_working.html
+|   |       |           navigator.html
+|   |       |           new_model.html
+|   |       |           open_save_print.html
+|   |       |           outline.html
+|   |       |           preferences.html
+|   |       |           prefs_canvas.html
+|   |       |           prefs_colours_fonts.html
+|   |       |           prefs_connections.html
+|   |       |           prefs_diagram.html
+|   |       |           prefs_general.html
+|   |       |           prefs_help.html
+|   |       |           properties_canvas_block.html
+|   |       |           properties_canvas_connection.html
+|   |       |           properties_canvas_image.html
+|   |       |           properties_canvas_sticky.html
+|   |       |           properties_element.html
+|   |       |           properties_element_appearance.html
+|   |       |           properties_folder.html
+|   |       |           properties_group.html
+|   |       |           properties_model.html
+|   |       |           properties_note.html
+|   |       |           properties_note_connection.html
+|   |       |           properties_relation.html
+|   |       |           properties_relation_appearance.html
+|   |       |           properties_user_properties.html
+|   |       |           properties_view.html
+|   |       |           properties_viewref.html
+|   |       |           properties_window.html
+|   |       |           relations_rules.html
+|   |       |           reporting.html
+|   |       |           sketch_view.html
+|   |       |           templates.html
+|   |       |           templates_managing.html
+|   |       |           templates_new.html
+|   |       |           templates_new_model.html
+|   |       |           viewpoints.html
+|   |       |           views.html
+|   |       |           views_open_create.html
+|   |       |           views_working.html
+|   |       |           view_addexisting.html
+|   |       |           view_addnew.html
+|   |       |           view_align_grid.html
+|   |       |           view_conn_bendpoints.html
+|   |       |           view_conn_properties.html
+|   |       |           view_conn_router.html
+|   |       |           view_container_nested.html
+|   |       |           view_copy_paste_delete.html
+|   |       |           view_format_painter.html
+|   |       |           view_fullscreen.html
+|   |       |           view_group.html
+|   |       |           view_junction.html
+|   |       |           view_magic_connector.html
+|   |       |           view_nav.html
+|   |       |           view_note.html
+|   |       |           view_palette.html
+|   |       |           view_palette_creation_tools.html
+|   |       |           view_palette_tools.html
+|   |       |           view_reference.html
+|   |       |           view_z_order.html
+|   |       |           visualiser.html
+|   |       |           
+|   |       \---hints
+|   |           |   access.html
+|   |           |   aggregation.html
+|   |           |   and_junction.html
+|   |           |   application_collaboration.html
+|   |           |   application_component.html
+|   |           |   application_function.html
+|   |           |   application_interaction.html
+|   |           |   application_interface.html
+|   |           |   application_service.html
+|   |           |   artifact.html
+|   |           |   assessment.html
+|   |           |   assignment.html
+|   |           |   association.html
+|   |           |   business_activity.html
+|   |           |   business_actor.html
+|   |           |   business_collaboration.html
+|   |           |   business_event.html
+|   |           |   business_function.html
+|   |           |   business_interaction.html
+|   |           |   business_interface.html
+|   |           |   business_object.html
+|   |           |   business_process.html
+|   |           |   business_role.html
+|   |           |   business_service.html
+|   |           |   communication_path.html
+|   |           |   composition.html
+|   |           |   connection.html
+|   |           |   constraint.html
+|   |           |   contract.html
+|   |           |   data_object.html
+|   |           |   deliverable.html
+|   |           |   device.html
+|   |           |   diagram_image.html
+|   |           |   driver.html
+|   |           |   flow.html
+|   |           |   folder.html
+|   |           |   gap.html
+|   |           |   goal.html
+|   |           |   group.html
+|   |           |   influence.html
+|   |           |   infrastructure_function.html
+|   |           |   infrastructure_interface.html
+|   |           |   infrastructure_service.html
+|   |           |   junction.html
+|   |           |   location.html
+|   |           |   meaning.html
+|   |           |   model.html
+|   |           |   network.html
+|   |           |   node.html
+|   |           |   note.html
+|   |           |   or_junction.html
+|   |           |   plateau.html
+|   |           |   principle.html
+|   |           |   product.html
+|   |           |   realisation.html
+|   |           |   representation.html
+|   |           |   requirement.html
+|   |           |   sketch.html
+|   |           |   sketch_actor.html
+|   |           |   sketch_sticky.html
+|   |           |   specialisation.html
+|   |           |   stakeholder.html
+|   |           |   style.css
+|   |           |   system_software.html
+|   |           |   triggering.html
+|   |           |   used_by.html
+|   |           |   value.html
+|   |           |   view.html
+|   |           |   viewpoint_actorcooperation.html
+|   |           |   viewpoint_applicationbehaviour.html
+|   |           |   viewpoint_applicationcooperation.html
+|   |           |   viewpoint_applicationstructure.html
+|   |           |   viewpoint_applicationusage.html
+|   |           |   viewpoint_businessfunction.html
+|   |           |   viewpoint_businessprocess.html
+|   |           |   viewpoint_businessprocesscoop.html
+|   |           |   viewpoint_businessproduct.html
+|   |           |   viewpoint_goalcontribution.html
+|   |           |   viewpoint_goalrealisation.html
+|   |           |   viewpoint_impldeploy.html
+|   |           |   viewpoint_implmigration.html
+|   |           |   viewpoint_infostructure.html
+|   |           |   viewpoint_infra.html
+|   |           |   viewpoint_infrausage.html
+|   |           |   viewpoint_layered.html
+|   |           |   viewpoint_migration.html
+|   |           |   viewpoint_motivation.html
+|   |           |   viewpoint_organisation.html
+|   |           |   viewpoint_principles.html
+|   |           |   viewpoint_project.html
+|   |           |   viewpoint_requirementsrealisation.html
+|   |           |   viewpoint_servicereal.html
+|   |           |   viewpoint_stakeholder.html
+|   |           |   viewpoint_total.html
+|   |           |   view_ref.html
+|   |           |   workpackage.html
+|   |           |   
+|   |           \---img
+|   |                   vp_actorcoop.png
+|   |                   vp_appbehaviour.jpg
+|   |                   vp_appcoop.jpg
+|   |                   vp_appstruct.jpg
+|   |                   vp_appusage.jpg
+|   |                   vp_busfunc.jpg
+|   |                   vp_busprocess.png
+|   |                   vp_busprocesscoop.png
+|   |                   vp_busproduct.jpg
+|   |                   vp_goalcontribution.jpg
+|   |                   vp_goalrealisation.jpg
+|   |                   vp_impldeploy.png
+|   |                   vp_implmigration.jpg
+|   |                   vp_infostructure.jpg
+|   |                   vp_infra.jpg
+|   |                   vp_infrausage.jpg
+|   |                   vp_migration.jpg
+|   |                   vp_motivation.jpg
+|   |                   vp_organisation.jpg
+|   |                   vp_principles.jpg
+|   |                   vp_project.jpg
+|   |                   vp_requirements_realization.jpg
+|   |                   vp_servicereal.jpg
+|   |                   vp_stakeholder.jpg
+|   |                   
+|   \---src
+|       \---com
+|           \---archimatetool
+|               \---help
+|                   +---cheatsheets
+|                   |       messages_fr.properties
+|                   |       
+|                   \---hints
+|                           messages_fr.properties
+|                           
++---com.archimatetool.jasperreports.fr
+|   |   .classpath
+|   |   .gitignore
+|   |   .project
+|   |   build.properties
+|   |   plugin_fr.properties
+|   |   
+|   +---bin
+|   |   \---com
+|   |       \---archimatetool
+|   |           \---jasperreports
+|   |               |   messages_fr.properties
+|   |               |   
+|   |               \---data
+|   |                       messages_fr.properties
+|   |                       
+|   +---META-INF
+|   |       MANIFEST.MF
+|   |       
+|   +---nl
+|   |   \---fr
+|   |       \---reports
+|   |           +---Customizable Report
+|   |           |       default.png
+|   |           |       diagram_object.jrxml
+|   |           |       elements.jrxml
+|   |           |       main.jrxml
+|   |           |       properties.jrxml
+|   |           |       style.jrtx
+|   |           |       view.jrxml
+|   |           |       
+|   |           \---Standard Report
+|   |                   diagram_object.jrxml
+|   |                   elements.jrxml
+|   |                   main.jrxml
+|   |                   properties.jrxml
+|   |                   view.jrxml
+|   |                   
+|   \---src
+|       \---com
+|           \---archimatetool
+|               \---jasperreports
+|                   |   messages_fr.properties
+|                   |   
+|                   \---data
+|                           messages_fr.properties
+|                           
++---com.archimatetool.model.fr
+|   |   .classpath
+|   |   .gitignore
+|   |   .project
+|   |   build.properties
+|   |   plugin_fr.properties
+|   |   
+|   +---bin
+|   |   \---com
+|   |       \---archimatetool
+|   |           \---model
+|   |               \---impl
+|   |                       messages_fr.properties
+|   |                       
+|   +---META-INF
+|   |       MANIFEST.MF
+|   |       
+|   +---nl
+|   \---src
+|       \---com
+|           \---archimatetool
+|               \---model
+|                   \---impl
+|                           messages_fr.properties
+|                           
++---com.archimatetool.reports.fr
+|   |   .classpath
+|   |   .gitignore
+|   |   .project
+|   |   build.properties
+|   |   plugin_fr.properties
+|   |   
+|   +---bin
+|   |   \---com
+|   |       \---archimatetool
+|   |           \---reports
+|   |               \---html
+|   |                       messages_fr.properties
+|   |                       
+|   +---META-INF
+|   |       MANIFEST.MF
+|   |       
+|   +---nl
+|   \---src
+|       \---com
+|           \---archimatetool
+|               \---reports
+|                   \---html
+|                           messages_fr.properties
+|                           
++---com.archimatetool.templates.fr
+|   |   .classpath
+|   |   .gitignore
+|   |   .project
+|   |   build.properties
+|   |   plugin_fr.properties
+|   |   
+|   +---bin
+|   |   \---com
+|   |       \---archimatetool
+|   |           \---templates
+|   |               +---dialog
+|   |               |       messages_fr.properties
+|   |               |       
+|   |               +---impl
+|   |               |   +---model
+|   |               |   |       messages_fr.properties
+|   |               |   |       
+|   |               |   \---wizard
+|   |               |           messages_fr.properties
+|   |               |           
+|   |               +---model
+|   |               |       messages_fr.properties
+|   |               |       
+|   |               \---wizard
+|   |                       messages_fr.properties
+|   |                       
+|   +---META-INF
+|   |       MANIFEST.MF
+|   |       
+|   +---nl
+|   |   \---fr
+|   |       \---templates
+|   |               basic.architemplate
+|   |               customizable-report.architemplate
+|   |               skeleton.architemplate
+|   |               
+|   \---src
+|       \---com
+|           \---archimatetool
+|               \---templates
+|                   +---dialog
+|                   |       messages_fr.properties
+|                   |       
+|                   +---impl
+|                   |   +---model
+|                   |   |       messages_fr.properties
+|                   |   |       
+|                   |   \---wizard
+|                   |           messages_fr.properties
+|                   |           
+|                   +---model
+|                   |       messages_fr.properties
+|                   |       
+|                   \---wizard
+|                           messages_fr.properties
+|                           
++---com.archimatetool.zest.fr
+|   |   .classpath
+|   |   .gitignore
+|   |   .project
+|   |   build.properties
+|   |   plugin_fr.properties
+|   |   
+|   +---bin
+|   |   \---com
+|   |       \---archimatetool
+|   |           \---zest
+|   |                   messages_fr.properties
+|   |                   
+|   +---META-INF
+|   |       MANIFEST.MF
+|   |       
+|   +---nl
+|   \---src
+|       \---com
+|           \---archimatetool
+|               \---zest
+|                       messages_fr.properties
+|                       
++---features
+|   \---org.eclipse.babel.nls_eclipse_fr_4.4.0.v20140623020002
+|           about.html
+|           eclipse_update_120.jpg
+|           epl-v10.html
+|           feature.properties
+|           feature.xml
+|           license.html
+|           
+\---plugins
+    |   org.eclipse.ant.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ant.launching.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ant.tests.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ant.tests.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ant.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.compare.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.compare.examples.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.compare.examples.xml.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.compare.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.compare.win32.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.core.commands.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.core.databinding.beans.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.core.databinding.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.core.databinding.observable.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.core.databinding.property.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.core.externaltools.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.core.filebuffers.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.core.net.linux.x86.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.core.net.linux.x86_64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.core.net.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.core.net.win32.x86.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.core.net.win32.x86_64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.core.variables.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.debug.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.debug.examples.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.debug.examples.memory.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.debug.examples.mixedmode.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.debug.examples.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.debug.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.core.commands.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.demo.contacts.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.emf.xpath.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.bindings.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.css.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.css.swt.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.css.swt.theme.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.di.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.menu.tests.p3.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.model.workbench.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.progress.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.services.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.widgets.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.workbench.addons.swt.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.workbench.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.workbench.renderers.swt.cocoa.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.workbench.renderers.swt.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.workbench.swt.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.e4.ui.workbench3.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.frameworkadmin.equinox.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.frameworkadmin.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.carbon.macosx.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.cocoa.macosx.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.cocoa.macosx.x86_64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.gtk.aix.ppc.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.gtk.aix.ppc64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.gtk.hpux.ia64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.gtk.hpux.ia64_32.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.gtk.linux.ppc.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.gtk.linux.ppc64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.gtk.linux.ppc64le.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.gtk.linux.s390.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.gtk.linux.s390x.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.gtk.linux.x86.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.gtk.linux.x86_64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.gtk.solaris.sparc.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.gtk.solaris.x86.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.motif.aix.ppc.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.motif.hpux.ia64_32.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.motif.linux.x86.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.motif.solaris.sparc.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.win32.win32.ia64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.win32.win32.x86.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.win32.win32.x86_64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.launcher.wpf.win32.x86.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.artifact.optimizers.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.artifact.processors.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.artifact.repository.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.console.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.director.app.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.director.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.directorywatcher.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.discovery.compatibility.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.discovery.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.engine.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.examples.rcp.cloud.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.examples.rcp.discovery.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.examples.rcp.sdkbundlevisibility.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.extensionlocation.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.garbagecollector.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.installer.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.jarprocessor.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.metadata.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.metadata.repository.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.operations.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.publisher.eclipse.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.publisher.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.ql.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.reconciler.dropins.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.repository.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.repository.tools.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.tests.discovery.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.tests.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.tests.verifier.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.touchpoint.eclipse.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.touchpoint.natives.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.transport.ecf.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.ui.admin.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.ui.admin.rcp.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.ui.discovery.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.ui.importexport.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.ui.sdk.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.ui.sdk.scheduler.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.updatechecker.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.p2.updatesite.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.simpleconfigurator.manipulator.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.equinox.simpleconfigurator.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.help.base.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.help.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.help.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.help.webapp.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.annotation.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.annotation_v1.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.apt.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.apt.pluggable.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.apt.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.astview.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.compiler.apt.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.compiler.tool.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.core.manipulation.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.core.tests.builder.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.core.tests.compiler.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.core.tests.model.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.core.tests.performance.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.debug.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.debug.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.jeview.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.junit.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.junit.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.junit.runtime.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.junit4.runtime.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.launching.macosx.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.launching.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.launching.ui.macosx.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.ui.examples.javafamily.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.ui.examples.projects.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jdt.ui.tests.refactoring.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jface.databinding.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jface.examples.databinding.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jface.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jface.tests.databinding.conformance.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jface.tests.databinding.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jface.text.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jsch.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.jsch.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ltk.core.refactoring.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ltk.ui.refactoring.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.osgi.compatibility.plugins.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.osgi.compatibility.state.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.osgi.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.osgi.services.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.osgi.util.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.annotations.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ee.cdcfoundation10.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ee.cdcfoundation11.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ee.j2se12.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ee.j2se13.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ee.j2se14.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ee.j2se15.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ee.javase16.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ee.javase17.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ee.javase18.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ee.jre11.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ee.osgiminimum10.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ee.osgiminimum11.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ee.osgiminimum12.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.generator.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.api.tools.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.ds.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.ds.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.junit.runtime.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.launching.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.runtime.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.ua.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.ua.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.pde.ui.templates.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.platform.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.sdk.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.search.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.carbon.macosx.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.cocoa.macosx.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.cocoa.macosx.x86_64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.examples.browser.demos.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.examples.launcher.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.examples.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.examples.ole.win32.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.examples.views.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.aix.ppc.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.aix.ppc64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.hpux.ia64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.hpux.ia64_32.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.linux.ia64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.linux.ppc.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.linux.ppc64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.linux.ppc64le.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.linux.s390.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.linux.s390x.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.linux.x86.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.linux.x86_64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.solaris.sparc.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.gtk.solaris.x86.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.motif.aix.ppc.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.motif.hpux.ia64_32.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.motif.hpux.PA_RISC.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.motif.linux.x86.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.motif.solaris.sparc.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.opengl.examples.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.photon.qnx.x86.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.snippets.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.tools.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.win32.wce_ppc.arm.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.win32.win32.ia64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.win32.win32.x86.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.win32.win32.x86_64.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.swt.wpf.win32.x86.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.team.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.team.cvs.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.team.cvs.ssh.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.team.cvs.ssh2.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.team.cvs.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.team.examples.filesystem.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.team.tests.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.team.tests.cvs.core.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.team.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.text.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.browser.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.cheatsheets.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.cocoa.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.console.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.editors.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.examples.contributions.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.examples.fieldassist.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.examples.javaeditor.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.examples.job.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.examples.multipageeditor.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.examples.propertysheet.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.examples.rcp.browser.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.examples.readmetool.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.examples.undo.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.examples.views.properties.tabbed.article.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.examples.views.properties.tabbed.hockeyleague.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.examples.views.properties.tabbed.logic.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.externaltools.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.forms.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.ide.application.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.ide.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.images.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.intro.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.intro.universal.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.navigator.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.navigator.resources.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.net.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.tests.navigator.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.tests.rcp.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.tests.views.properties.tabbed.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.themes.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.trace.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.views.log.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.views.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.views.properties.tabbed.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.win32.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.workbench.compatibility.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.workbench.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.ui.workbench.texteditor.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.update.configurator.nl_fr_4.4.0.v20140623020002.jar
+    |   org.eclipse.update.core.nl_fr_4.4.0.v20140623020002.jar
+    |   
+    +---com.archimatetool.canvas.fr_1.0.0.201407051235
+    |   |   com.archimatetool.canvas.fr.jar
+    |   |   plugin_fr.properties
+    |   |   
+    |   +---META-INF
+    |   |       MANIFEST.MF
+    |   |       
+    |   \---nl
+    |       \---fr
+    |           +---help
+    |           |   \---hints
+    |           |           canvas_block.html
+    |           |           canvas_connection.html
+    |           |           canvas_diagram.html
+    |           |           canvas_image.html
+    |           |           canvas_sticky.html
+    |           |           style.css
+    |           |           
+    |           \---templates
+    |                   bmc.archicanvas
+    |                   cjc.archicanvas
+    |                   swot.archicanvas
+    |                   
+    +---com.archimatetool.csv.fr_1.0.0.201407051235
+    |   |   com.archimatetool.csv.fr.jar
+    |   |   plugin_fr.properties
+    |   |   
+    |   +---META-INF
+    |   |       MANIFEST.MF
+    |   |       
+    |   \---nl
+    +---com.archimatetool.editor.fr_1.0.0.201407051235
+    |   |   com.archimatetool.editor.fr.jar
+    |   |   plugin_fr.properties
+    |   |   
+    |   +---META-INF
+    |   |       MANIFEST.MF
+    |   |       
+    |   \---nl
+    +---com.archimatetool.help.fr_1.0.0.201407051235
+    |   |   com.archimatetool.help.fr.jar
+    |   |   plugin_fr.properties
+    |   |   
+    |   +---META-INF
+    |   |       MANIFEST.MF
+    |   |       
+    |   \---nl
+    |       \---fr
+    |           +---cheatsheets
+    |           |       create_map_view.xml
+    |           |       new_model.xml
+    |           |       
+    |           +---help
+    |           |   +---Images
+    |           |   |       archimate_relations_dialog.png
+    |           |   |       bendpoint1.png
+    |           |   |       bendpoint2.png
+    |           |   |       blank-workspace.png
+    |           |   |       canvas_bmc.png
+    |           |   |       canvas_bmc2.png
+    |           |   |       canvas_bmc3.png
+    |           |   |       canvas_example1.png
+    |           |   |       canvas_example2.png
+    |           |   |       canvas_example3.png
+    |           |   |       canvas_example4.png
+    |           |   |       canvas_example5.png
+    |           |   |       canvas_example6.png
+    |           |   |       canvas_example7.png
+    |           |   |       canvas_example8.png
+    |           |   |       canvas_new_blank.png
+    |           |   |       canvas_new_from_template.png
+    |           |   |       canvas_new_from_template_wizard1.png
+    |           |   |       canvas_palette.png
+    |           |   |       canvas_save_as_template1.png
+    |           |   |       canvas_save_as_template2.png
+    |           |   |       canvas_templates_manage.png
+    |           |   |       circular_connection.png
+    |           |   |       connection_reuse_dialog.png
+    |           |   |       connection_tooltip.png
+    |           |   |       conn_properties.png
+    |           |   |       container1.png
+    |           |   |       container2.png
+    |           |   |       container3.png
+    |           |   |       container4.png
+    |           |   |       container5.png
+    |           |   |       container6.png
+    |           |   |       container7.png
+    |           |   |       delete_warning.png
+    |           |   |       derived_dialog.png
+    |           |   |       derived_example.png
+    |           |   |       groups.png
+    |           |   |       hints.png
+    |           |   |       image_chooser.png
+    |           |   |       image_chooser_dialog.png
+    |           |   |       jasper_pdf.png
+    |           |   |       jasper_wizard1.png
+    |           |   |       jasper_wizard2.png
+    |           |   |       junction.png
+    |           |   |       magic_conn1.png
+    |           |   |       magic_conn2.png
+    |           |   |       magic_conn3.png
+    |           |   |       model-tree-add.png
+    |           |   |       model-tree-filter.png
+    |           |   |       model-tree-filter2.png
+    |           |   |       model-tree-italic.png
+    |           |   |       model-tree-searchbar.png
+    |           |   |       model-tree-searchbar2.png
+    |           |   |       model-tree-sync.png
+    |           |   |       model-tree.png
+    |           |   |       navigator1.png
+    |           |   |       navigator2.png
+    |           |   |       navigator3.png
+    |           |   |       navigator4.png
+    |           |   |       navigator5.png
+    |           |   |       navigator6.png
+    |           |   |       new-model.png
+    |           |   |       new-sketch.png
+    |           |   |       new-toolbar.png
+    |           |   |       note.png
+    |           |   |       orthogonal1.png
+    |           |   |       orthogonal2.png
+    |           |   |       outline.png
+    |           |   |       palette.png
+    |           |   |       palette_docked.png
+    |           |   |       palette_elements.png
+    |           |   |       palette_elements2.png
+    |           |   |       palette_formatpainter.png
+    |           |   |       palette_icons.png
+    |           |   |       palette_junctions.png
+    |           |   |       palette_magic.png
+    |           |   |       palette_other.png
+    |           |   |       palette_relations.png
+    |           |   |       palette_selections.png
+    |           |   |       palette_settings.png
+    |           |   |       palette_tools.png
+    |           |   |       prefs_canvas.png
+    |           |   |       prefs_colours.png
+    |           |   |       prefs_connections.png
+    |           |   |       prefs_connections2.png
+    |           |   |       prefs_diagram.png
+    |           |   |       prefs_diagram2.png
+    |           |   |       prefs_diagram3.png
+    |           |   |       prefs_fonts.png
+    |           |   |       prefs_general.png
+    |           |   |       properties_canvas_block1.png
+    |           |   |       properties_canvas_block2.png
+    |           |   |       properties_canvas_block3.png
+    |           |   |       properties_canvas_block4.png
+    |           |   |       properties_canvas_connection1.png
+    |           |   |       properties_canvas_connection2.png
+    |           |   |       properties_canvas_image1.png
+    |           |   |       properties_canvas_image2.png
+    |           |   |       properties_canvas_sticky1.png
+    |           |   |       properties_canvas_sticky2.png
+    |           |   |       properties_canvas_sticky3.png
+    |           |   |       properties_element1.png
+    |           |   |       properties_element2.png
+    |           |   |       properties_element3.png
+    |           |   |       properties_element4.png
+    |           |   |       properties_figure.png
+    |           |   |       properties_folder.png
+    |           |   |       properties_group1.png
+    |           |   |       properties_group2.png
+    |           |   |       properties_model.png
+    |           |   |       properties_note1.png
+    |           |   |       properties_note2.png
+    |           |   |       properties_note_connection.png
+    |           |   |       properties_note_connection_main.png
+    |           |   |       properties_relation1.png
+    |           |   |       properties_relation2.png
+    |           |   |       properties_relation3.png
+    |           |   |       properties_sketch_appearance.png
+    |           |   |       properties_user1.png
+    |           |   |       properties_user2.png
+    |           |   |       properties_user_dialog1.png
+    |           |   |       properties_user_dialog2.png
+    |           |   |       properties_view1.png
+    |           |   |       properties_view2.png
+    |           |   |       properties_viewref.png
+    |           |   |       rel-access.png
+    |           |   |       rel-aggregation.png
+    |           |   |       rel-assignment.png
+    |           |   |       rel-association.png
+    |           |   |       rel-composition.png
+    |           |   |       rel-flow.png
+    |           |   |       rel-realisation.png
+    |           |   |       rel-specialisation.png
+    |           |   |       rel-triggering.png
+    |           |   |       rel-usedby.png
+    |           |   |       report_html.png
+    |           |   |       selection-primary.png
+    |           |   |       sketch1.png
+    |           |   |       template_manage.png
+    |           |   |       template_new_wizard.png
+    |           |   |       template_save_wizard1.png
+    |           |   |       template_save_wizard2.png
+    |           |   |       tip.png
+    |           |   |       toolbar_palette.png
+    |           |   |       viewpoint_hint.png
+    |           |   |       viewpoint_infrastructure.png
+    |           |   |       viewpoint_total.png
+    |           |   |       viewpoint_tree.png
+    |           |   |       view_conn_router_manhattan.png
+    |           |   |       view_conn_router_manual.png
+    |           |   |       view_conn_router_shortest.png
+    |           |   |       view_default.png
+    |           |   |       view_fullscreen.png
+    |           |   |       view_new.png
+    |           |   |       view_new_menu.png
+    |           |   |       view_refs.png
+    |           |   |       view_z_order.png
+    |           |   |       visualiser.png
+    |           |   |       visualiser_menu.png
+    |           |   |       windows-toolbar.png
+    |           |   |       
+    |           |   +---Styles
+    |           |   |       style.css
+    |           |   |       
+    |           |   \---Text
+    |           |           archi_working.html
+    |           |           canvas.html
+    |           |           canvas_details.html
+    |           |           canvas_getting_started.html
+    |           |           canvas_new_from_template.html
+    |           |           canvas_save_as_template.html
+    |           |           canvas_templates_managing.html
+    |           |           derived_rels.html
+    |           |           exporting.html
+    |           |           hints.html
+    |           |           image_chooser.html
+    |           |           install.html
+    |           |           intro.html
+    |           |           model_tree.html
+    |           |           model_tree_add.html
+    |           |           model_tree_folders.html
+    |           |           model_tree_search.html
+    |           |           model_tree_working.html
+    |           |           navigator.html
+    |           |           new_model.html
+    |           |           open_save_print.html
+    |           |           outline.html
+    |           |           preferences.html
+    |           |           prefs_canvas.html
+    |           |           prefs_colours_fonts.html
+    |           |           prefs_connections.html
+    |           |           prefs_diagram.html
+    |           |           prefs_general.html
+    |           |           prefs_help.html
+    |           |           properties_canvas_block.html
+    |           |           properties_canvas_connection.html
+    |           |           properties_canvas_image.html
+    |           |           properties_canvas_sticky.html
+    |           |           properties_element.html
+    |           |           properties_element_appearance.html
+    |           |           properties_folder.html
+    |           |           properties_group.html
+    |           |           properties_model.html
+    |           |           properties_note.html
+    |           |           properties_note_connection.html
+    |           |           properties_relation.html
+    |           |           properties_relation_appearance.html
+    |           |           properties_user_properties.html
+    |           |           properties_view.html
+    |           |           properties_viewref.html
+    |           |           properties_window.html
+    |           |           relations_rules.html
+    |           |           reporting.html
+    |           |           sketch_view.html
+    |           |           templates.html
+    |           |           templates_managing.html
+    |           |           templates_new.html
+    |           |           templates_new_model.html
+    |           |           viewpoints.html
+    |           |           views.html
+    |           |           views_open_create.html
+    |           |           views_working.html
+    |           |           view_addexisting.html
+    |           |           view_addnew.html
+    |           |           view_align_grid.html
+    |           |           view_conn_bendpoints.html
+    |           |           view_conn_properties.html
+    |           |           view_conn_router.html
+    |           |           view_container_nested.html
+    |           |           view_copy_paste_delete.html
+    |           |           view_format_painter.html
+    |           |           view_fullscreen.html
+    |           |           view_group.html
+    |           |           view_junction.html
+    |           |           view_magic_connector.html
+    |           |           view_nav.html
+    |           |           view_note.html
+    |           |           view_palette.html
+    |           |           view_palette_creation_tools.html
+    |           |           view_palette_tools.html
+    |           |           view_reference.html
+    |           |           view_z_order.html
+    |           |           visualiser.html
+    |           |           
+    |           \---hints
+    |               |   access.html
+    |               |   aggregation.html
+    |               |   and_junction.html
+    |               |   application_collaboration.html
+    |               |   application_component.html
+    |               |   application_function.html
+    |               |   application_interaction.html
+    |               |   application_interface.html
+    |               |   application_service.html
+    |               |   artifact.html
+    |               |   assessment.html
+    |               |   assignment.html
+    |               |   association.html
+    |               |   business_activity.html
+    |               |   business_actor.html
+    |               |   business_collaboration.html
+    |               |   business_event.html
+    |               |   business_function.html
+    |               |   business_interaction.html
+    |               |   business_interface.html
+    |               |   business_object.html
+    |               |   business_process.html
+    |               |   business_role.html
+    |               |   business_service.html
+    |               |   communication_path.html
+    |               |   composition.html
+    |               |   connection.html
+    |               |   constraint.html
+    |               |   contract.html
+    |               |   data_object.html
+    |               |   deliverable.html
+    |               |   device.html
+    |               |   diagram_image.html
+    |               |   driver.html
+    |               |   flow.html
+    |               |   folder.html
+    |               |   gap.html
+    |               |   goal.html
+    |               |   group.html
+    |               |   influence.html
+    |               |   infrastructure_function.html
+    |               |   infrastructure_interface.html
+    |               |   infrastructure_service.html
+    |               |   junction.html
+    |               |   location.html
+    |               |   meaning.html
+    |               |   model.html
+    |               |   network.html
+    |               |   node.html
+    |               |   note.html
+    |               |   or_junction.html
+    |               |   plateau.html
+    |               |   principle.html
+    |               |   product.html
+    |               |   realisation.html
+    |               |   representation.html
+    |               |   requirement.html
+    |               |   sketch.html
+    |               |   sketch_actor.html
+    |               |   sketch_sticky.html
+    |               |   specialisation.html
+    |               |   stakeholder.html
+    |               |   style.css
+    |               |   system_software.html
+    |               |   triggering.html
+    |               |   used_by.html
+    |               |   value.html
+    |               |   view.html
+    |               |   viewpoint_actorcooperation.html
+    |               |   viewpoint_applicationbehaviour.html
+    |               |   viewpoint_applicationcooperation.html
+    |               |   viewpoint_applicationstructure.html
+    |               |   viewpoint_applicationusage.html
+    |               |   viewpoint_businessfunction.html
+    |               |   viewpoint_businessprocess.html
+    |               |   viewpoint_businessprocesscoop.html
+    |               |   viewpoint_businessproduct.html
+    |               |   viewpoint_goalcontribution.html
+    |               |   viewpoint_goalrealisation.html
+    |               |   viewpoint_impldeploy.html
+    |               |   viewpoint_implmigration.html
+    |               |   viewpoint_infostructure.html
+    |               |   viewpoint_infra.html
+    |               |   viewpoint_infrausage.html
+    |               |   viewpoint_layered.html
+    |               |   viewpoint_migration.html
+    |               |   viewpoint_motivation.html
+    |               |   viewpoint_organisation.html
+    |               |   viewpoint_principles.html
+    |               |   viewpoint_project.html
+    |               |   viewpoint_requirementsrealisation.html
+    |               |   viewpoint_servicereal.html
+    |               |   viewpoint_stakeholder.html
+    |               |   viewpoint_total.html
+    |               |   view_ref.html
+    |               |   workpackage.html
+    |               |   
+    |               \---img
+    |                       vp_actorcoop.png
+    |                       vp_appbehaviour.jpg
+    |                       vp_appcoop.jpg
+    |                       vp_appstruct.jpg
+    |                       vp_appusage.jpg
+    |                       vp_busfunc.jpg
+    |                       vp_busprocess.png
+    |                       vp_busprocesscoop.png
+    |                       vp_busproduct.jpg
+    |                       vp_goalcontribution.jpg
+    |                       vp_goalrealisation.jpg
+    |                       vp_impldeploy.png
+    |                       vp_implmigration.jpg
+    |                       vp_infostructure.jpg
+    |                       vp_infra.jpg
+    |                       vp_infrausage.jpg
+    |                       vp_migration.jpg
+    |                       vp_motivation.jpg
+    |                       vp_organisation.jpg
+    |                       vp_principles.jpg
+    |                       vp_project.jpg
+    |                       vp_requirements_realization.jpg
+    |                       vp_servicereal.jpg
+    |                       vp_stakeholder.jpg
+    |                       
+    +---com.archimatetool.jasperreports.fr_1.0.0.201407051235
+    |   |   com.archimatetool.jasperreports.fr.jar
+    |   |   plugin_fr.properties
+    |   |   
+    |   +---META-INF
+    |   |       MANIFEST.MF
+    |   |       
+    |   \---nl
+    |       \---fr
+    |           \---reports
+    |               +---Customizable Report
+    |               |       default.png
+    |               |       diagram_object.jrxml
+    |               |       elements.jrxml
+    |               |       main.jrxml
+    |               |       properties.jrxml
+    |               |       style.jrtx
+    |               |       view.jrxml
+    |               |       
+    |               \---Standard Report
+    |                       diagram_object.jrxml
+    |                       elements.jrxml
+    |                       main.jrxml
+    |                       properties.jrxml
+    |                       view.jrxml
+    |                       
+    +---com.archimatetool.model.fr_1.0.0.201407051235
+    |   |   com.archimatetool.model.fr.jar
+    |   |   plugin_fr.properties
+    |   |   
+    |   +---META-INF
+    |   |       MANIFEST.MF
+    |   |       
+    |   \---nl
+    +---com.archimatetool.reports.fr_1.0.0.201407051235
+    |   |   com.archimatetool.reports.fr.jar
+    |   |   plugin_fr.properties
+    |   |   
+    |   +---META-INF
+    |   |       MANIFEST.MF
+    |   |       
+    |   \---nl
+    +---com.archimatetool.templates.fr_1.0.0.201407051235
+    |   |   com.archimatetool.templates.fr.jar
+    |   |   plugin_fr.properties
+    |   |   
+    |   +---META-INF
+    |   |       MANIFEST.MF
+    |   |       
+    |   \---nl
+    |       \---fr
+    |           \---templates
+    |                   basic.architemplate
+    |                   customizable-report.architemplate
+    |                   skeleton.architemplate
+    |                   
+    \---com.archimatetool.zest.fr_1.0.0.201407051235
+        |   com.archimatetool.zest.fr.jar
+        |   plugin_fr.properties
+        |   
+        +---META-INF
+        |       MANIFEST.MF
+        |       
+        \---nl
